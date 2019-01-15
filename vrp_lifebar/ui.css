@@ -1,0 +1,92 @@
+#heal {
+    position: absolute;
+    left: 1.5%;
+    bottom: 19px;
+    width: 9.35%;
+    height: 11px;
+    padding: 0;
+    border: 2px solid black;
+    border-color: black;
+    float:left;
+    background:#696969;
+    
+}
+#armour {
+    position: absolute;
+    left: 10.9%;
+    bottom: 19px;
+    width: 4.6%;
+    height: 11px;
+    padding: 0;
+    border: 2px solid black;
+    border-color: black;
+    float:left;
+    background: #696969;
+}
+#hunger {
+    position:absolute;
+    left: -0.50%;
+    top:96.1%;
+    margin: 1.12%;
+    margin-left: 2%;
+    width: 4.6%;
+    height: 0.9%;
+    padding:0px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+ 
+}
+#thirst {
+    position:absolute;
+    left: 1.50%;
+    top: 96.1%;
+    margin: 1.12%;
+    margin-left: 4.7%;
+    width: 4.6%;
+    height: 0.9%;
+    padding: 0%;
+    text-align:center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+ 
+}
+#voice {
+    position:absolute;
+    left: 1.70%;
+    top: 96.1%;
+    margin: 1.12%;
+    margin-left: 9.2%;
+    width: 4.6%;
+    height: 0.9%;
+    padding: 0%;
+    text-align:center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+   
+}
+#boxHeal, #boxArmour, #boxHunger, #boxThirst, #boxVoice {
+    background: #2ecc71;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+#boxArmour {
+    background: #1e3799;
+}
+#boxHunger {
+    background: #f6b93b;
+}
+#boxThirst {
+    background: #6a89cc;
+}
+#boxVoice {
+    background: #ecf0f1;
+}
+
+body {
+    overflow: hidden;
+}
